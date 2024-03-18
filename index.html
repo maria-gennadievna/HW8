@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>HW8 API</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="HW8">
+            <b><p class="name">Home Work №8</p></b>
+            RePlay урока
+            ¯\_(ツ)_/¯
+            <button id="loadButton">Определить</button>
+            <b><p class="name" id="name">Город не определен</p></b>
+            <p id="temp"></p>
+        </div>
+
+
+        <!--  -->
+
+        <div class="weather-card">
+            <div class="search">
+                <input type="search" placeholder="введите название города" spellcheck="false">
+                <button>
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+            <div class="weather">
+                <img class="weather-icon" src="3d.png" alt="...">
+                <h1 class="temp">15°C </h1>
+                <h2 class="city">Нью-Йорк</h2>
+                <div class="details">
+                    <div style="display: flex;" class="col">
+                        <img class="humi" src="humidity.png">
+                        <div class="info">
+                            <p class="humidity">50%</p>
+                            <p>Влажность</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="icon.png">
+                        <div class="info">
+                            <p class="wind">15 km/h</p>
+                            <p>Скорость ветра</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <script src="app.js"></script>
+</body>
+
+</html>
